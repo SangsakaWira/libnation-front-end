@@ -23,7 +23,7 @@ const Home: React.FC<Props> = ({ }) => {
       <Row  sm={8}>
         {[1, 2, 3, 4, 5, 6].map(idx => {
           return (
-            <Col style={{marginTop:"10px"}}>
+            <Col key={idx} style={{marginTop:"10px"}}>
               <BookCard title='Harry Potter and the Deathly Hallow' content='By JK Rowling' image='https://media.harrypotterfanzone.com/deathly-hallows-us-childrens-edition.jpg'></BookCard>
             </Col>
           )
