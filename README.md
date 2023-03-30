@@ -1,4 +1,9 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## About This Project
+
+This project is built from scratch using react.js, next.js and bootstrap css framework
+
+login page demo: https://libnation-front-mbgbhbhm8-sangsakawira.vercel.app/login
+
 
 ## Getting Started
 
