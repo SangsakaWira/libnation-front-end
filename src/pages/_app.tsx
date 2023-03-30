@@ -17,13 +17,13 @@ function App({ Component, pageProps }: AppProps) {
       {isPrivateRoute ? (
         <PrivateRoute>
           <Layout>
-            <Container>
+            <Container style={{marginTop:"20px"}}>
               <Component {...pageProps} />
             </Container>
           </Layout>
         </PrivateRoute>
       ) : (
-        <PublicRoute>
+        <PublicRoute >
           <Component {...pageProps} />
         </PublicRoute>
       )}

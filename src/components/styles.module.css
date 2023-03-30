@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'TT Fors';
+    src: url('/fonts/tt_fors_regular.otf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+.navigation{
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.link{
+    color:white;
+    text-decoration: none;
+    margin-right: 55px;
+    font-weight: 600;
+    font-family: "TT Fors";
+}
+
+.link:hover{
+    color: #8cc640;
+    text-decoration: none;
+    margin-right: 55px;
+    font-weight: 600;
+    font-family: "TT Fors";
+}

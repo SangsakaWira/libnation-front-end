@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'TT Fors';
+    src: url('/fonts/tt_fors_regular.otf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+.container{
+    padding:1%;
+    font-family: "TT Fors";
+}
+
+.title{
+    font-family: "TT Fors";
+    font-weight: 500;
+}
