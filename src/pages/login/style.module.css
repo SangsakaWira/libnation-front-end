@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'TT Fors';
+    src: url('/fonts/tt_fors_regular.otf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url('/images/background.png');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width: 768px) {
+    .card {
+        width: 30%;
+        background-color: #FFFFFF;
+        border-radius: 2%;
+        padding: auto;
+        font-family: 'TT Fors';
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 70%;
+        background-color: #FFFFFF;
+        border-radius: 2%;
+        padding: auto;
+        font-family: 'TT Fors';
+    }
+}
+
+.button {
+    width: 100%;
+    margin-top: 15px;
+    border: #000000;
+    background-color: #000000;
+}
+
+
+.button:hover {
+    background-color: #8cc640;
+}
+
+.content {
+    padding: 20px;
+    font-family: 'TT Fors';
+}
+
+.title {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 25px;
+    padding: 5px;
+}
+
+.forget {
+    display: inline;
+}
+
+.activation {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.clicking {
+    margin-left: 2px;
+}
